@@ -1,107 +1,197 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MuzakMaker</title>
+    <link href="style.css" rel="stylesheet">
+    <title>MuzakMaker- Smooth Jazz</title>
 </head>
 <body>
-    Smooth Jazz
-This station is dedicated to the soothing sounds of smooth jazz. This genre of commercially oriented crossover jazz became dominant in the 1980s and early 1990s.
-
-MuzakMaker
-Trending Songs
-Your playlists
-Curated Playlists
-duke-silver.png
-
-<section>
-<h2>Trending Songs</h2>
-
-<section>
-    <h3>Aloma</h3>
-    <dl>
-        <dt>Artist</dt> 
-        <dd>Cali</dd>
-    </dl>
-aloma-cover.png
-aloma.mp3
-</section>
-
-My Road
-Artist Nesterouk
-my-road-cover.png
-my-road.mp3
-
-Papaya
-Artist Dredstudio
-papaya-cover.png
-papaya.mp3
-
-Smoothies
-Artist Black Rhomb
-smoothies-cover.png
-smoothies.mp3
-
-Successful Performance
-Artist Ricky Bombino
-successful-performance-cover.png
-successful-performance.mp3
-</section>
-
-More trending
-Your Playlists
-best-of-2020-cover.png
-Best of 2020
-The music that got you through the lock down.
-
-
-pumpkin-spice-cover.png
-Pumpkin Spice
-Creamy and spicy, just like your favorite autumnal latte.
-
-
-quiet-storm-cover.png
-Quiet Storm
-Slow tempos and relaxed rhythms. 
-
-
-smooth-jazz-cover.png
-Smooth Jazz
-The pioneers of smooth jazz
-
-
-smooth-study-cover.png
-Smooth Study
-Background music to keep you going while you study. 
-
-
-All your playlists
-Curated Playlists
-boozy-brunch-cover.png
-Boozy Brunch
-Light up the afternoon with these energetic hits. 
-
-dinner-party-cover.png
-Dinner Party
-Background music to give your party life, but allow your guests to chat. 
-
-mellow-cover.png
-Mellow
-Relax after a stressful day with this collection of extra smooth jazz.
-
-jazz-chill-cover.png
-Jazz and Chill
-Set the mood with these silky sounds.
-
-smooth-saxophone-cover.png
-Jazz Saxophone
-The greatest collection of your sax favorites.
-
-More curated
-
-
-Copyright 2022 Smooth Jazz
-
+    <header>
+        <h1>Smooth Jazz</h1>
+        <p>This station is dedicated to the soothing sounds of smooth jazz. This genre of commercially oriented crossover jazz became dominant in the 1980s and early 1990s.</p>
+    </header>
+    <nav>
+        <h2>Main Navigation</h2>
+        <input type="checkbox" id="dropdown" />
+        <label for="dropdown"><span></span></label>
+        <ul>
+          <li><a href="#home">MuzakMaker</a></li>
+          <li><a href="#trending">Trending <br />Songs</a></li>
+          <li><a href="#playlists">Your  <br />Playlists</a></li>
+          <li><a href="#curated">Curated  <br />Playlists</a></li>
+          <li><a href="user"><img src="images/duke-silver.png" alt="user profile picture"></a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="trending">
+            <h2>Trending Songs</h2>
+            <div class="scroll">
+            <section>
+                <div>
+                <h3>Aloma</h3>
+                    <dl>
+                        <dt>Artist</dt>
+                        <dd>Cali</dd>
+                    </dl>
+                </div>
+                <img src="images/aloma-cover.png" alt="white dove on black background">
+                <audio 
+                    controls
+                    src="audio/aloma.mp3">
+                    Your browser does not support the <code>audio</code> element.
+                </audio>
+            </section>
+            <section>
+                <div>
+                    <h3>My Road</h3>
+                    <dl>
+                        <dt>Artist</dt>
+                        <dd>Nesterouk</dd>
+                    </dl>
+                </div>
+                <img src="images/my-road-cover.png" alt="middle of the road in a desert highway">
+                <audio 
+                    controls
+                    src="audio/my-road.mp3">
+                    Your browser does not support the <code>audio</code> element.
+                </audio>
+            </section>
+            <section>
+                <div>
+                    <h3>Papaya</h3>
+                    <dl>
+                        <dt>Artist</dt>
+                        <dd>Dredstudio</dd>
+                    </dl>
+                </div>
+                <img src="images/papaya-cover.png" alt="A papaya cut in half on a bright green background">
+                <audio 
+                    controls
+                    src="audio/papaya.mp3">
+                    Your browser does not support the <code>audio</code> element.
+                </audio>
+            </section>
+            <section>
+                <div>
+                    <h3>Smoothies</h3>
+                    <dl>
+                        <dt>Artist</dt>
+                        <dd>Black Rhomb</dd>
+                    </dl>
+                </div>
+                <img src="images/smoothies-cover.png" alt="fruit on a counter with a blender and glasses">
+                <audio 
+                    controls
+                    src="audio/smoothies.mp3">
+                    Your browser does not support the <code>audio</code> element.
+                </audio>
+            </section>
+            <section>
+                <div>
+                    <h3>Successful Performance</h3>
+                    <dl>
+                        <dt>Artist</dt>
+                        <dd>Ricky Bombino</dd>
+                    </dl>
+                </div>
+                <img src="images/successful-performance-cover.png" alt="white guy in a red shirt double pumping his fists">
+                <audio 
+                    controls
+                    src="audio/successful-performance.mp3">
+                    Your browser does not support the <code>audio</code> element.
+                </audio>
+            </section>
+            </div>
+            <a href="#" class="more">More trending</a>
+        </section>
+        <section id="playlists">
+            <h2>Your Playlists</h2>
+            <div class="scroll">
+                <section>
+                    <a href="#">
+                        <img src="images/best-of-2020-cover.png" alt="back background with 2020 lit on fire">
+                        <h3>Best of 2020</h3>
+                        <p>The music that got you through the lock down. </p>
+                    </a>
+                </section>
+                <section>
+                    <a href="#">
+                        <img src="images/pumpkin-spice-cover.png" alt="Grainy wood table with white saucer and cup with a latte">
+                        <h3>Pumpkin Spice</h3>
+                        <p>Creamy and spicy, just like your favorite autumnal latte. </p>
+                    </a>
+                </section>
+                <section>
+                    <a href="#">
+                        <img src="images/quiet-storm-cover.png" alt="dark cloudy sky">
+                        <h3>Quiet Storm</h3>
+                        <p>Slow tempos and relaxed rhythms.  </p>
+                    </a>
+                </section>
+                <section>
+                    <a href="#">
+                        <img src="images/smooth-jazz-cover.png" alt="smug old white guy">
+                        <h3>Smooth Jazz</h3>
+                        <p>The pioneers of smooth jazz. </p>
+                    </a>
+                </section>
+                <section>
+                    <a href="#">
+                        <img src="images/smooth-study-cover.png" alt="person in orange sweater typing on a laptop">
+                        <h3>Smooth Study</h3>
+                        <p>Smooth sounds to study to.</p>
+                    </a>
+                </section>
+            </div>
+            <a href="#" class="more">All your playlists</a>
+        </section>
+        <section id="curated">
+            <h2>Curated Playlists</h2>
+            <div class="scroll">
+                <section>
+                    <a href="#">
+                        <img src="images/boozy-brunch-cover.png" alt="folx at a table enjoying food and adult beverages">
+                        <h3>Boozy Brunch</h3>
+                        <p>Light up the afternoon with these energetic hits. </p>
+                    </a>
+                </section>
+                <section>
+                    <a href="#">
+                        <img src="images/dinner-party-cover.png" alt="a long wood table full of bright colored food and flowers">
+                        <h3>Dinner Party</h3>
+                        <p>Background music to give your party life.</p>
+                    </a>
+                </section>
+                <section>
+                    <a href="#">
+                        <img src="images/mellow-cover.png" alt="a park at the golden hour with trees and two people sitting on a park bench">
+                        <h3>Mellow</h3>
+                        <p>Relax after a stressful day with this mellow collection.</p>
+                    </a>
+                </section>
+                <section>
+                    <a href="#">
+                        <img src="images/jazz-chill-cover.png" alt="rose petals">
+                        <h3>Jazz and Chill</h3>
+                        <p>Set the mood with these silky sounds.</p>
+                    </a>
+                </section>
+                <section>
+                    <a href="#">
+                        <img src="images/smooth-saxophone-cover.png" alt="a line up of saxophone players on stage with concert lights shining">
+                        <h3>Jazz Saxophone</h3>
+                        <p>The greatest collection of your sax favorites.</p>
+                    </a>
+                </section>
+            </div>
+                <a href="#" class="more">More curated</a>
+        </section>
+    </main>
+    <footer>
+        <p><small>Copyright 2022 Smooth Jazz</small></p>
+    </footer> 
 </body>
 </html>
